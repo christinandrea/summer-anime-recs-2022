@@ -1,30 +1,34 @@
 
 from neo4j import GraphDatabase
-from sklearn.metrics.pairwise import pairwise_distances,cosine_similarity
+from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 from dotenv import load_dotenv
-from flask import jsonify,Flask
+from flask import Flask,request,jsonify
 from difflib import SequenceMatcher
 import os
+from flask_cors import CORS
 
 load_dotenv()
+
 host = os.environ['HOST']
 username = os.environ["USERNAME"]
 password = os.environ["PASSWORD"]
 
 conn = GraphDatabase.driver(host,auth=(username,password))
 
-inputText = "phantom"
-
-
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/recommend/',methods=['GET', 'POST'])
 def run_recommendation():
-    inputText = 'drift'
+    inputText = request.form.get('inputText')
+
+    # inputText = 'drift'
+    # if not inputText:
+    #     return jsonify({'error': 'Missing inputText parameter'})
+    
     with conn.session() as session:
         res = "MATCH (a:Anime) RETURN a.title AS title, a.genre AS genre, a.rating as rating,a.studio AS studio, a.show_type AS show_type"
         # for i in res:
@@ -50,8 +54,9 @@ def run_recommendation():
 
         for i in range(len(empList)):
             title = empList[i][0]
-            sim = SequenceMatcher(None,inputText,title).ratio()
-            if sim > 0.4:
+            sim = SequenceMatcher()
+            sim.set_seqs(inputText,title)
+            if sim.ratio() > 0.4:
                 title_index = i
                 break
      
@@ -59,7 +64,7 @@ def run_recommendation():
             similarity_scores = similarity_matrix[title_index]
             top_indices = np.argsort(similarity_scores)[::-1]
             
-            recommendation = [[list(empList[i]),similarity_scores[i]*100] for i in top_indices if similarity_scores[i]>0.7]  
+            recommendation = [[list(empList[i]),similarity_scores[i]*100] for i in top_indices if similarity_scores[i]>0.5]  
             res = {
                 "status" : 200,
                 "body" : recommendation
@@ -70,7 +75,6 @@ def run_recommendation():
                 "body" : "Not Found"
             }
         return res
-
 
 if __name__ == '__main__':
     app.run()
