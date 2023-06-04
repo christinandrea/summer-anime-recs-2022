@@ -8,7 +8,7 @@ from flask import Flask,request,jsonify
 from difflib import SequenceMatcher
 import os
 from flask_cors import CORS
-
+import string
 load_dotenv()
 
 host = os.environ['HOST']
@@ -23,7 +23,8 @@ CORS(app)
 
 @app.route('/recommend/',methods=['GET', 'POST'])
 def run_recommendation():
-    inputText = request.form.get('inputText')
+    inputText = request.form.get('inputText').title()
+    # inputText = string.capwords(inputText)
 
     # inputText = 'drift'
     # if not inputText:

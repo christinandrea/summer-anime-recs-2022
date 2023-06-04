@@ -41,28 +41,37 @@ function displayRecommendationResults(response){
     var resultsContainer = document.getElementById('result');
     resultsContainer.innerHTML = ''; 
 
-    // console.log(response.body)
+    console.log(response.body)
 
     var res = response.body
-
-    for(var i = 0 ; i < res.length ; i++){
-        // console.log(res[i])
-
-        var arr_data = res[i][0]
-        // console.log(arr_data)
-        var itemHtml = '<div class="recommendation-item">' +
-                '<h3 class="title">' + arr_data[0] + '</h3>' +
-                '<div class="detail">' +
-                'Genre: ' + arr_data[1] + '<br>' +
-                'Rating: ' + arr_data[2] + '<br>' +
-                'Studio: ' + arr_data[3] + '<br>' +
-                'Type: ' + arr_data[4] + '<br>' +
-                '</div>' +
-                '</div>';
-
+    if(response.status === 200){
+        for(var i = 0 ; i < res.length ; i++){
+            // console.log(res[i])
+    
+            var arr_data = res[i][0]
+            // console.log(arr_data)
+            var itemHtml = 
+                    '<div class="recommendation-item">' +
+                    '<h3 class="title">' + arr_data[0] + '</h3>' +
+                    '<div class="detail">' +
+                    'Genre: ' + arr_data[1] + '<br>' +
+                    '<div class="rating">Rating: ' + arr_data[2] + '</div>' +'<br>' +
+                    'Studio: ' + arr_data[3] + '<br>' +
+                    'Type: ' + arr_data[4] + '<br>' +
+                    '</div>' +
+                    '</div>';
+    
+            resultsContainer.innerHTML += itemHtml;
+    
+        }
+    }else{
+        var itemHtml = 
+                    '<div class="recommendation-item">' +
+                    '<h3 class="title">' + "Not Found" + '</h3>' +
+                    '</div>';
         resultsContainer.innerHTML += itemHtml;
-
     }
+    
     // if(response.status === 200){
 
     //     console.log(response)

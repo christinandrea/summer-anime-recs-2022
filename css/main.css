@@ -1,16 +1,19 @@
 html {
+  height: auto;
   line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
+  font-family: 'Poppins', sans-serif;
   /* 2 */
 }
 
 body {
+  height: 100%;
   margin: 0;
   background: url("../images/background.jpg");
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   background-position: center;
   background-size: cover;
 }
@@ -34,7 +37,7 @@ button {
 }
 
 .search {
-  min-height: 100vh;
+  min-height: 50vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -192,5 +195,26 @@ button {
   .search form .inner-form .input-field.second-wrap .btn-search {
     font-size: 13px;
   }
+}
+
+.recommendation-item{
+    padding: 30px;
+    margin-top: 5px;
+    margin-left: 300px;
+    background-color: oldlace;
+    opacity: 70%;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.rating{
+    float: right;
+    right: 20px;
+    background-color: #F46E25;
+    font-weight: bolder;
+    color: whitesmoke;
+    position: relative;
+    bottom: 20px;
 }
 
