@@ -1,0 +1,800 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Lerche",
+        "show_type": "TV Show",
+        "genre": [
+          "Psychological",
+          "School",
+          "Drama",
+          "Suspense"
+        ],
+        "rating": 8.14,
+        "title": "Classroom of the Elite II"
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "LIDENFILMS",
+        "show_type": "TV Show",
+        "genre": [
+          "Romance",
+          "Supernatural"
+        ],
+        "rating": 8,
+        "title": "Call of the Night"
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Kinema Citrus",
+        "show_type": "TV Show",
+        "genre": [
+          "Adventure",
+          "Drama",
+          "Fantasy",
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "rating": 8.67,
+        "title": "Made in Abyss: The Golden City of the Scorching Sun"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " CloverWorks ",
+        "show_type": "TV Show",
+        "genre": [
+          "Drama",
+          "Horror",
+          "Seinen",
+          "Mansion",
+          "Supernatural",
+          "Based on a Manga"
+        ],
+        "rating": "N/A",
+        "title": "Shadows House 2nd Season"
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " Nomad",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Fantasy",
+          "Slice of Life",
+          "Angels",
+          "Contemporary Fantasy",
+          "Dark Comedy",
+          "Demons",
+          "Monster Girls"
+        ],
+        "rating": "N/A",
+        "title": "Dropkick on My Devil! X"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " Studio KAI",
+        "show_type": "TV Show",
+        "genre": [
+          "Action",
+          "Sci Fi",
+          "Seinen",
+          "Detectives",
+          "Henshin Heroes",
+          "Superheroes",
+          "Tokusatsu",
+          "Based on a Manga"
+        ],
+        "rating": 7.34,
+        "title": "Fuuto PI"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Studio KAI",
+        "show_type": "TV Show",
+        "genre": [
+          "Idols",
+          "Music",
+          "Showbiz",
+          "Based on a Light Novel"
+        ],
+        "rating": "N/A",
+        "title": "Shine Post"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "LIDEN FILMS",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Romance",
+          "Shounen",
+          "Interspecies Relationship",
+          "NEET",
+          "Non-Human Protagonists",
+          "Psychological"
+        ],
+        "rating": 8.02,
+        "title": "Call of the Night"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "MAPPA",
+        "show_type": "TV Show",
+        "genre": [
+          "Drama",
+          "Shounen",
+          "Gambling",
+          "Psychological",
+          "School Life",
+          "Based on a Manga"
+        ],
+        "rating": "N/A",
+        "title": " Kakegurui Twin"
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " Studio 3Hz ",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Fantasy",
+          "Contemporary Fantasy",
+          "Coworkers",
+          "Demon King",
+          "Demons",
+          "Non-Human Protagonists"
+        ],
+        "rating": "N/A",
+        "title": "The Devil is a Part-Timer! 2"
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " SILVER LINK",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Romance",
+          "Shounen",
+          "Board Games",
+          "Romantic Comedy",
+          "School Life",
+          "Based on a Manga"
+        ],
+        "rating": "N/A",
+        "title": "Soredemo Ayumu wa Yosetekuru"
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " AtelierPontdarc",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "rating": 7.88,
+        "title": "Uncle from Another World"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " Project No.9",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Romance"
+        ],
+        "rating": 6.77,
+        "title": "My Stepmom`s Daughter Is My Ex"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "feel., Gaina",
+        "show_type": "TV Show",
+        "genre": [
+          "Slice of Life"
+        ],
+        "rating": 7.78,
+        "title": "The Yakuza`s Guide to Babysitting"
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " Studio Gokumi",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy",
+          "Supernatural"
+        ],
+        "rating": 6.75,
+        "title": "Phantom of the Idol"
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " Seven Arcs",
+        "show_type": "TV Show",
+        "genre": "Sports",
+        "rating": 6.52,
+        "title": "Extreme Hearts"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " A-Real",
+        "show_type": "TV Show",
+        "genre": [
+          "Comedy"
+        ],
+        "rating": 4.69,
+        "title": "Musasi-no"
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": " ILC, Ayell",
+        "show_type": "TV Show",
+        "genre": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "rating": 4.91,
+        "title": "KJ File"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "LIDENFILMS",
+        "show_type": "TV Show",
+        "genre": [
+          "Action",
+          "Fantasy"
+        ],
+        "rating": 5.82,
+        "title": " Smile of the Arsnotoria the Animation"
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Sunrise",
+        "show_type": "TV Show",
+        "genre": [
+          "Slice of Life"
+        ],
+        "rating": 7.73,
+        "title": " Love Live! Superstar!! 2nd Season"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "NAZ",
+        "show_type": "TV Show",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "rating": 5.64,
+        "title": "Lucifer and the Biscuit Hammer"
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Toei Animation",
+        "show_type": "Movie",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Award Winning",
+          "Comedy",
+          "Drama",
+          "Fantasy"
+        ],
+        "rating": 7.88,
+        "title": "One Piece Film: Red"
+      },
+      "elementId": "21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "C-Station",
+        "show_type": "Movie",
+        "genre": [
+          "Slice of Life"
+        ],
+        "rating": 8.48,
+        "title": "Laid-Back Camp: The Movie"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Studio Colorido",
+        "show_type": "Movie",
+        "genre": [
+          "Fantasy"
+        ],
+        "rating": 7.31,
+        "title": "Drifting Home"
+      },
+      "elementId": "23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "CLAP",
+        "show_type": "Movie",
+        "genre": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "rating": 7.45,
+        "title": "Natsu e no Tunnel, Sayonara no Deguchi"
+      },
+      "elementId": "24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Kyoto Animation",
+        "show_type": "Movie",
+        "genre": [
+          "Sports"
+        ],
+        "rating": 6.96,
+        "title": "Tsurune Movie: Hajimari no Issha"
+      },
+      "elementId": "25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Zexcs",
+        "show_type": "Movie",
+        "genre": [
+          "Sports"
+        ],
+        "rating": 6.68,
+        "title": "Backflip!! Movie"
+      },
+      "elementId": "26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Production I.G",
+        "show_type": "Movie",
+        "genre": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "rating": 8.23,
+        "title": "Legend of the Galactic Heroes: Die Neue These - Intrigue"
+      },
+      "elementId": "27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "A-1 Pictures",
+        "show_type": "Movie",
+        "genre": [
+          "Comedy",
+          "Romance"
+        ],
+        "rating": 6.68,
+        "title": "Uta no☆Prince-sama♪ Movie: Maji Love ST☆RISH Tours"
+      },
+      "elementId": "28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Pierrot",
+        "show_type": "Movie",
+        "genre": [
+          "Comedy"
+        ],
+        "rating": 6.42,
+        "title": "Osomatsu-san: Hipipo-Zoku to Kagayaku Kajitsu"
+      },
+      "elementId": "29"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Sunrise",
+        "show_type": "Movie",
+        "genre": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "rating": 7.24,
+        "title": "Gundam: G no Reconguista Movie IV - Gekitou ni Sakebu Ai"
+      },
+      "elementId": "30"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Sunrise",
+        "show_type": "Movie",
+        "genre": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "rating": 7.16,
+        "title": "Gundam: G no Reconguista Movie V - Shisen wo Koete"
+      },
+      "elementId": "31"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Light Chaser Animation Studios",
+        "show_type": "Movie",
+        "genre": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "rating": 6.97,
+        "title": "New Gods: Yang Jian"
+      },
+      "elementId": "32"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Bandai Namco Pictures",
+        "show_type": "Movie",
+        "genre": [
+          "Slice of Life"
+        ],
+        "rating": 6.31,
+        "title": "Aikatsu Planet! Movie"
+      },
+      "elementId": "33"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Toei Animation",
+        "show_type": "Movie",
+        "genre": [
+          "Action",
+          "Fantasy"
+        ],
+        "rating": 6.54,
+        "title": "Delicious Party♡Precure Movie: Yume Miru Oko-sama Lunch!"
+      },
+      "elementId": "34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "N/A",
+        "show_type": "Movie",
+        "genre": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "rating": "N/A",
+        "title": "Rainbow Sea Fly High"
+      },
+      "elementId": "35"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "N/A",
+        "show_type": "Movie",
+        "genre": [
+          "Action",
+          "Fantasy"
+        ],
+        "rating": 6.35,
+        "title": "My Precious Lunch"
+      },
+      "elementId": "36"
+    }
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "N/A",
+        "show_type": "Movie",
+        "genre": [
+          "Comedy"
+        ],
+        "rating": "N/A",
+        "title": "Chibiham, Juicy & Me"
+      },
+      "elementId": "37"
+    }
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "N/A",
+        "show_type": "Movie",
+        "genre": [
+          "Adventure",
+          "Comedy",
+          "Fantasy"
+        ],
+        "rating": "N/A",
+        "title": "Shanhai Jing: Zaijian Gaoshou"
+      },
+      "elementId": "38"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "Anime"
+      ],
+      "properties": {
+        "studio": "Bandai Namco Pictures",
+        "show_type": "Movie",
+        "genre": [
+          "N/A"
+        ],
+        "rating": "N/A",
+        "title": "Aikatsu! 10th Story: Mirai e no Starway"
+      },
+      "elementId": "39"
+    }
+  }
+]
