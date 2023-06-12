@@ -39,15 +39,17 @@ function sendData(e){
 
 function displayRecommendationResults(response){
     var resultsContainer = document.getElementById('result');
-    resultsContainer.innerHTML = ''; 
+    
 
     console.log(response.body)
 
     var res = response.body
     if(response.status === 200){
+        resultsContainer.innerHTML = '<h2 class="title-rec"> We recommend you to watch: </h2>'+ '<br>'+ ''; 
         for(var i = 0 ; i < res.length ; i++){
             // console.log(res[i])
-    
+            var arr_sim = res[i];
+            console.log(arr_sim);
             var arr_data = res[i][0]
             // console.log(arr_data)
             var itemHtml = 
@@ -65,9 +67,10 @@ function displayRecommendationResults(response){
     
         }
     }else{
+        resultsContainer.innerHTML = '';
         var itemHtml = 
                     '<div class="recommendation-item">' +
-                    '<h3 class="title">' + "Not Found" + '</h3>' +
+                    '<h3 class="title">' + "We apologize that we can't find what you're looking for." + '</h3>' +
                     '</div>';
         resultsContainer.innerHTML += itemHtml;
     }

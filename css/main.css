@@ -209,12 +209,20 @@ button {
 }
 
 .rating{
-    float: right;
+  float: right;
     right: 20px;
     background-color: #F46E25;
     font-weight: bolder;
     color: whitesmoke;
     position: relative;
-    bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    bottom: 80px;
 }
 
+.title-rec{
+  margin-left: 300px;
+  color: whitesmoke;
+  font-weight: bold;
+}
